@@ -22,8 +22,7 @@ end
 # TODO find a better way to load the SQLite adapter
 module ActiveRecord # :nodoc: all
   module ConnectionAdapters
-    class SQLiteAdapter < ActiveRecord::ConnectionAdapters::AbstractAdapter
-      include Populator::Adapters::Sqlite
+    class SQLiteAdapter 
     end
   end
 end
